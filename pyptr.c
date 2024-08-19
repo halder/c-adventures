@@ -1,4 +1,4 @@
-/* Uncovering C pointers of python struct copying mechanisms.
+/* Uncovering C pointers through python struct copying mechanisms.
  * Python lists under the hood.
  * 
  * The following Python code is equivalent to this C program:
