@@ -106,7 +106,6 @@ void linked_list_remove_tail(Node *head)
 
     if (temp->next == NULL) {
         linked_list_free(head);
-        printf("call linked_list_free(&head).\n");
         return;
     } else {
         temp = temp->next;
