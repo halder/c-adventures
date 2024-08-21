@@ -99,9 +99,7 @@ void linked_list_free(Node *head)
     free(head);
 }
 
-/* Remove last item of linked list by traversal.
- * Note: In order to do this in constant time, we would need a `tail` pointer.
- */
+/* Remove last item of linked list by traversal. */
 void linked_list_remove_tail(Node *head)
 {
     Node *temp = head, *prev = head;
